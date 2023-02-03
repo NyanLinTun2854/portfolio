@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navText {
+    @apply relative text-[16px] font-[500] text-secondary before:content-[''] lg:before:absolute before:-top-[42px] before:w-[2px] before:h-[0px]  before:bg-primary before:right-[50%] before:left-[50%] before:duration-500 hover:before:h-[42px] hover:text-primary cursor-pointer
+  }
+
+  .navTextLg {
+    @apply relative text-[16px] font-[500] text-secondary before:content-[''] before:absolute before:-top-[42px] before:w-[2px] before:h-[0px]  before:bg-primary before:right-[50%] before:left-[50%] before:duration-500 hover:before:h-[42px] hover:text-primary cursor-pointer
+  }
+
+  .active {
+    @apply lg:before:absolute before:-top-[42px] before:w-[2px] before:h-[42px]  before:bg-primary before:right-[50%] before:left-[50%] before:duration-500 text-primary
+  }
+
+  .home {
+    @apply relative w-full h-[550px] md:h-[730px] mt-[90px] bg-[#fbfbfb] overflow-hidden
+  }
+
+  .person-image {
+    @apply before:absolute before:content-[''] before:top-[50%] before:left-0 before:w-full before:h-[82%] before:-translate-y-[50%] before:border-[20px] before:border-primary
+  }
+}
+
+.nav {
+  box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
+}
+
+.shadow {
+  box-shadow: 0 5px 8px 0 rgb(118 78 249 / 55%);
+}
+
+.shadow-hover:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.me-hover:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
+
+.bg-cv {
+  background-image: url('./img/call-to-action.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-cv::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(117,78,249,.7);
+  z-index: -1;
+}
+.shadow-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.course-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.me-shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
+
+.shadow-map {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
+
+.mb-nav {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
