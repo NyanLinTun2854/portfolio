@@ -20,8 +20,11 @@ const Navbar = () => {
           scrollY > 0 ? "py-[20px]" : "py-[30px]"
         } `}
       >
-        <div className="">
-          <img src={logo} alt="" />
+        <div className="flex items-center">
+          <div className="w-[60px] h-[60px]">
+            <img src={logo} alt="" className="w-full h-full" />
+          </div>
+          <p className="text-[#754ef9]">Nyan</p>
         </div>
         <button
           onClick={handleClick}

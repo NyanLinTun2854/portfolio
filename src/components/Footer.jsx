@@ -1,5 +1,5 @@
 import React from "react";
-import logo2 from "../img/logo-2.png";
+import logo from "../img/logo.png";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 
@@ -9,13 +9,9 @@ const Footer = () => {
       <div className="container mx-auto relative pt-[70px] md:pt-[90px] lg:pt-[125px] pb-[80px] md:pb-[100px] lg:pb-[130px]">
         <div className="w-[90%] mx-auto">
           <div className="w-full lg:w-[60%] mx-auto text-center flex flex-col items-center gap-y-8">
-            <h3 className="w-auto h-[50px]">
-              <img
-                src={logo2}
-                className="w-auto h-full object-cover mx-auto"
-                alt=""
-              />
-            </h3>
+            <div className="w-[90px] h-[90px]">
+              <img src={logo} alt="" className="w-full h-full" />
+            </div>
             <p className="text-[15px] md:text-[16px] text-white leading-7">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut

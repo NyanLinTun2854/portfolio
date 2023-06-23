@@ -117,11 +117,8 @@ const Hero = () => {
                   Nyan Lin Tun
                 </h1>
                 <p className="text-[15px] md:text-[16px] text-secondary font-[400] leading-[28px] capitalize pb-[40px]">
-                  a frontend web developer
+                  a frontend web & App developer
                 </p>
-                <button className="text-[15px] text-white font-[500] border border-primary px-[40px] leading-[48px] rounded-[50px] cursor-pointer bg-primary uppercase shadow duration-300 hover:text-primary hover:bg-white z-1">
-                  view my work
-                </button>
               </div>
             </div>
             <div className="w-[50%] hidden lg:flex justify-center">

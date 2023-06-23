@@ -18,9 +18,10 @@ const Courses = () => {
               Recommanded Courses
             </h3>
             <p className="text-[15px] md:text-[16px] text-secondary leading-7">
-              Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam
-              tempus, nunc id efficitur sagittis, urna est ultricies eros, ac
-              porta sem turpis quis leo.
+              As a frontend web developer, you should learn javascript first.
+              And you hafta learn javascript framework like react, vue or
+              angular. And Because of being frontend developer, you also need to
+              learn CSS LIBRARY like tailwind, bootstrap or etc....
             </p>
           </div>
           <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-8 lg:gap-y-0 pt-14 content-center">

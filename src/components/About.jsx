@@ -33,9 +33,9 @@ const About = ({ inView }) => {
               About Me
             </h3>
             <p className="text-[15px] md:text-[16px] text-secondary leading-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              minus eos illum inventore quo, alias earum laudantium illo
-              corporis molestiae.
+              As a dedicated web developer with over 1 year of experience, I am
+              passionate about creating dynamic and visually appealing web
+              applications.
             </p>
           </div>
           <div className="w-full flex flex-wrap justify-between items-center mt-[50px] gap-y-12 lg:gap-y-0">
@@ -45,12 +45,12 @@ const About = ({ inView }) => {
                   Hi There! I'm Nyan Lin Tun
                 </p>
                 <p className="leading-[28px] text-secondary py-5 text-justify">
-                  Junior frontend developer with around 6 months workshop
-                  experience and passion for responsive website design. I want
-                  to get a lot of more experience in web development field. With
-                  my creative skills and knowledge, I want to also get into the
-                  competitive and challenging position and want to prove who I
-                  am.
+                  Frontend & App developer with over 1 year work experience,
+                  passion for efficient and reusable web development and
+                  seamless user interactions. I want to get a lot of more
+                  experience in web development field. With my creative skills
+                  and knowledge, I want to also get into the competitive and
+                  challenging position and want to prove who I am.
                 </p>
                 <div className="w-full flex flex-wrap gap-y-2">
                   <div className="w-full xl:w-[45%] flex items-center justify-start">
@@ -160,6 +160,23 @@ const About = ({ inView }) => {
                       className="h-full bg-primary duration-1000"
                       initial={{ width: 0 }}
                       whileInView={{ width: "80%" }}
+                      viewport={{ once: true }}
+                    ></motion.div>
+                  </div>
+                </div>
+                <div className="w-full mt-[25px]">
+                  <div className="w-full h-auto flex justify-between items-center">
+                    <p className="leading-[1.2]">REACT NATIVE</p>
+                    <div className="flex">
+                      <Counter end={60} />
+                      <span>%</span>
+                    </div>
+                  </div>
+                  <div className="w-full h-[5px] rounded-full bg-[#d9d9d9] overflow-hidden mt-[15px]">
+                    <motion.div
+                      className="h-full bg-primary duration-1000"
+                      initial={{ width: 0 }}
+                      whileInView={{ width: "60%" }}
                       viewport={{ once: true }}
                     ></motion.div>
                   </div>

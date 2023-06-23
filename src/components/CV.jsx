@@ -10,13 +10,13 @@ const CV = () => {
               Have any project on mind?
             </h3>
             <p className="text-[15px] md:text-[16px] leading-7 text-white py-[25px]">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
-              nostrud.
+              Highly skilled and results-driven web developer with over 1 year
+              of experience in designing and implementing innovative and
+              user-centric web solutions.
             </p>
             <div className="flex justify-center">
               <a
-                href="https://drive.google.com/file/d/11mHcuI7PLIlyWlryqlnU85CVSHninc4R/view"
+                href="https://drive.google.com/file/d/11B3T900VQIBat8O9HM9xqZOXzc20Sest/view"
                 target="_blank"
                 className="text-[15px] text-primary font-[500] border border-white px-[40px] leading-[48px] rounded-[50px] cursor-pointer bg-white uppercase shadow duration-300 hover:text-white hover:bg-primary hover:border-primary z-1"
               >

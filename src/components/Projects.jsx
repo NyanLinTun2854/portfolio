@@ -21,9 +21,9 @@ const Projects = () => {
               My Projects
             </h3>
             <p className="text-[15px] md:text-[16px] text-secondary leading-7">
-              Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam
-              tempus, nunc id efficitur sagittis, urna est ultricies eros, ac
-              porta sem turpis quis leo.
+              Implemented front-end functionality and interactions using HTML,
+              CSS, and JavaScript and Integrated APIs and databases to enable
+              data retrieval and storage using firebase.
             </p>
           </div>
           <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 pt-[50px]">

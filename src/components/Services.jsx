@@ -18,9 +18,9 @@ const Services = () => {
                 Services
               </h3>
               <p className="text-[15px] md:text-[16px] text-secondary leading-7">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                minus eos illum inventore quo, alias earum laudantium illo
-                corporis molestiae.
+                I offer comprehensive web development services aimed at helping
+                businesses establish a strong online presence and achieve their
+                digital goals.
               </p>
             </div>
             <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8 pt-[60px]">
@@ -45,13 +45,13 @@ const Services = () => {
                 </p>
               </div>
               <div className="w-full sm:w-[65%] md:w-[90%] lg:w-full mx-auto text-center border border-[#eceff8] rounded-md p-6 bg-white duration-300 cursor-pointer shadow-hover">
-                <SiTailwindcss className="text-[60px] text-primary mx-auto" />
+                <FaReact className="text-[60px] text-primary mx-auto" />
                 <h4 className="text-2xl font-[600] leading-[1.2] py-3 duration-300 cursor-pointer hover:text-primary">
-                  Tailwind
+                  React Native
                 </h4>
                 <p className="text-secondary">
-                  Having strong knowledge about tailwind CSS and can use other
-                  necessary UI components library
+                  Proficient in leveraging React Native components and APIs to
+                  develop efficient and user-friendly interfaces.
                 </p>
               </div>
               <div className="w-full sm:w-[65%] md:w-[90%] lg:w-full mx-auto text-center border border-[#eceff8] rounded-md p-6 bg-white duration-300 cursor-pointer shadow-hover">
